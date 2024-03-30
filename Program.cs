@@ -1,3 +1,11 @@
 ﻿using DesafioPOO.Models;
 
-// TODO: Realizar os testes com as classes Nokia e Iphone
+static void Main(string[] args)
+{
+    // Exemplo de uso das classes Nokia e iPhone
+    Smartphone nokia = new Nokia("","","");
+    nokia.InstalarAplicativo("WhatsApp");
+
+    Smartphone iphone = new Iphone("", "", "");
+    iphone.InstalarAplicativo("Instagram");
+}
